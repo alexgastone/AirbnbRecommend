@@ -1,6 +1,7 @@
 # AirbnbRecommend
 *Airbnb Recommender System on Boston data using Sentiment Analysis and Collaborative Filtering*
 
+## Motivation
 **Goal**: build a Recommendation System with publically available [Airbnb data from Boston](https://www.kaggle.com/airbnb/boston#listings.csv).
 This will mean being able to recommend Airbnb listings to users based on their preferences.
 
@@ -16,6 +17,8 @@ So, how do we do that? We'll attack this problem in three parts:
 3. Generate recommendations!
 * We can chose the number of top recommendations we want to give a particular user, sorted according to their predicted polarity
 
+
+## File descriptions
 This repository includes:
 * `data` folder, including `reviews.csv` and `listings.csv`. 
 * `Airbnb_SentimentAnalysis.ipynb` for part 1
