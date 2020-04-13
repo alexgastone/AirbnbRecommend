@@ -10,6 +10,8 @@ So, how do we do that? We'll attack this problem in three parts:
 * Do the necessary text pre-processing steps for each reviewer's comments (including language detection)
 * Using [NLTK's Vader](https://www.nltk.org/howto/sentiment.html) lexicon, calculate the compound polarity of each comment
 
+> for our predicted polarity values, I additionally created this [dashboard app](https://airbnb-bos-polarity.herokuapp.com/) with Streamlit and deployed on Heroku
+
 2. Build a recommendation engine - **Collaborative Filtering**
 * Once we have the polarities for each reviewer/listing pair, build a utility matrix with reviewer_id on one axis and listing_id on the other
 * Predict all polarities (fill in the Nan values of that matrix) using SVD
