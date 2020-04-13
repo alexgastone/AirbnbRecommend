@@ -1,0 +1,1 @@
+web: sh setup.sh && streamline run dashboard.py
